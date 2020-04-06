@@ -6,8 +6,52 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <link rel='stylesheet' href="https://use.fontawesome.com/releases/v5.7.0/css/all.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta name="viewport" content="width=device-width">
+    <title>Login Form</title>
 </head>
+
 <body>
-    <div class="jumbotron">abc</div>
+<div class="container w-25 rounded-lg">
+    <div class="d-flex sign_color justify-content-between rounded-lg p-1">
+        <div class="material-icons text-white pr-3 pl-3" style="font-size: 40px;">school</div>
+        <div><h3 class="text-white">Sign in</h3></div>
+        <div class="material-icons text-white pr-3 pl-3" style="font-size: 40px">close</div>
+    </div>
+    <div>
+        <form class="p-3" >
+            <div class="input-group pt-2">
+                <input type="email" class="form-control border-right-0" placeholder="Enter email" name="email">
+                <div class="input-group-append">
+                    <span class="input-group-text material-icons bg-white text-secondary">mail</span>
+                </div>
+            </div>
+            <div class="input-group pt-3">
+                <input type="password" class="form-control border-right-0" placeholder="Enter password" name="pwd">
+                <div class="input-group-append">
+                    <span class="input-group-text material-icons bg-white text-secondary">lock</span>
+                </div>
+            </div>
+            <button class="btn sign_color btn-block mt-4">SIGN IN</button>
+            <div class="d-flex justify-content-between mt-2">
+                <span>Forgot your password?</span>
+                <span>Register!</span>
+            </div>
+        </form>
+        <div class="pl-3 pr-3 text-center ">
+            <hr style="float:left; width: 40%">
+            <span class="text-muted">OR</span>
+            <hr style="float:right; width: 40%">
+        </div>
+    </div>
+    <div class="p-3">
+        <button class="btn facebook_color btn-block mt-4">
+            <i class="fab fa-facebook-f"></i>
+        </button>
+        <button class="btn google_color btn-block mt-4">
+            <i class="fab fa-google-plus-g"></i>
+        </button>
+        <button class="btn login_color btn-block mt-5 mb-4">< <b>EPAM LOGIN</b> ></button>
+    </div>
+</div>
 </body>
 </html>
