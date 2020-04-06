@@ -1,1 +1,28 @@
+.bdr {
+    border: 1px solid #afb4ba;
+}
 
+.width {
+    max-width:400px;
+    margin: auto;
+}
+
+.login_color {
+    color: white;
+    background: #c6c502;
+}
+
+.facebook_color {
+    color: white;
+    background: #2c65a4;
+}
+
+.google_color {
+    color: white;
+    background: #fe8700;
+}
+
+.sign_color {
+    color: white;
+    background: #43dbc3;
+}
